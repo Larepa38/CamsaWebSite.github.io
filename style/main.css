@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_container{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* header */
+
+header{
+    color: white;
+    background: linear-gradient(to right, #1f445f, #a80c00);
+}
+
+.container{
+    padding: 10px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.logo_empresa{
+    height: 75px;
+    width: 75px;
+}
+
+/* MENU */
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.main_menu{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main_menu ul{
+    display: flex;
+    text-decoration: none;
+    gap: 50px;
+
+}
+
+.main_menu ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.main_menu ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+/* body */
+
+.body_lading_page{
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.imagenes_website_body {
+    margin-right: 20px;
+    float: left;
+    width: 350px;
+    border-radius: 5px;
+    padding: 2.5px;
+    transition: transform 0.2s ease-in-out 0.2s;
+}
+
+.imagenes_website_body:hover {
+    transform: scale(1.07);
+}
+
+.title_paragraph{
+    margin-bottom: 100px;
+}
+
+.title_paragraph h1{
+    margin-bottom: 25px;
+    font-size: 40px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title_paragraph p{
+    text-align: justify;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* FOOTER */
+.footer{
+    background: linear-gradient(to right, #1f445f, #a80c00);
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_empresa_footer{
+    width: 150px;
+}
+.contact{
+    color: white;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact a{
+    color: white;
+}
+.social_media{
+    list-style: none;
+}
+.social_media a{
+    align-items: center;
+    display: flex;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.social_media_content{
+    align-items: center;
+    display: flex;
+}
+.social_media_logos{
+    width: 75px;
+}
+
+/* contact */
+.main_body{
+    margin: 50px;
+    border: black solid 2px;
+}
+
+.forms{
+    padding: 20px;
+}
+
+.forms div{
+    padding: 15px;
+    font-size: 25px;
+}
+
+/* ubicacion */
+.main_body_ubicacion{
+    margin: 50px;
+    border: black solid 2px;
+    display: flex;
+}
+
+.img_ubicacion{
+    margin: 10px;
+    background: black;
+    padding: 1px;
+    width: 700px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out 0.2s;
+}
+
+.img_ubicacion:hover {
+    background: rgba(0, 0, 0, 0.212);
+    transform: scale(1.07);
+}
+
+.secondary_body_ubicacion{
+    color: black;
+    padding: 10px 100px 10px 100px;
+}
+
+.secondary_body_ubicacion a{
+    color: black;
+}
+
+.secondary_body_ubicacion p{
+    font-size: 20px;
+}
+
+.secondary_body_ubicacion div{
+    padding: 30px 0 30px 0;
+}
